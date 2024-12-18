@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kennedy E. Mercado - Personal Profile</title>
+    <link rel="stylesheet" href="uii.css">
+
+</head>
+<body>
+    <section id="hero">
+    <div class="heroo">
+        <div>
+            <a href="web.html" type="button" class="cta">BACK</a>
+        </div>
+    </div>
+</section>
+    <div id="LBJland">
+        <div class="LANDD">
+            <h1 class="landing-title">Kennedy E. Mercado</h1>
+            <p class="landing-description">
+                
+            </p>
+            <button onclick="showPersonalWebsite()" class="enter-button">Enter Profile</button>
+        </div>
+    </div>
+ 
+    <div id="Chiefcurry">
+
+        <div id="EYYY">
+        
+            <div class="img">
+                <img src="img/1by1.jpg" alt="Kennedy Mercado" class="EYYY">
+            </div>
+        </div>
+
+        <button onclick="showLandingPage()" class="back-button">← BACK</button>
+        <div class="jacskol">
+            <h1>Kennedy E. Mercado</h1>
+            
+            <div class="webyy">
+                <h2>Personal Information</h2>
+                <div class="profile-details">
+                    <div>
+                        <p><span class="info-label">Full Name:</span> Kennedy E. Mercado</p>
+                        <p><span class="info-label">Age:</span> 21</p>
+                        <p><span class="info-label">Address:</span> Pag-asa Taysan Batangas</p>
+                    </div>
+                    <div>
+                        <p><span class="info-label">Email:</span> mercadokennedy5@gmail.com</p>
+                        <p><span class="info-label">Phone:</span> 09511695276</p>
+                        <p><span class="info-label">Birthdate:</span> July 4, 2003</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="webyy">
+                <h2>Educational Background</h2>
+                <ul>
+                    <li><strong>Highest Educational Attainment:</strong> College</li>
+                    <li><strong>Course/Program:</strong> Information Technology</li>
+                    <li><strong>School:</strong> Westmead International School</li>
+                    <li><strong>Year Graduated:</strong> ??????</li>
+                </ul>
+            </div>
+
+            <div class="webyy">
+                <h2>SKILLS:</h2>
+                <ul>
+                    <li>Web Developer</li>
+                    <li>Software Developer</li>
+                    <li>Photoshop</li>
+                    <li>Encode</li>
+                    <li>Web Design</li>
+                </ul>
+            </div>
+
+            <div class="webyy">
+                <h2>INTEREST:</h2>
+                <ul>
+                    <li>Food</li>
+                    <li>Adventure</li>
+                    <li>Ball games</li>
+                </ul>
+            </div>
+
+            <div class="webyy">
+                <h2>CONTACT INFORMATION:</h2>
+                <div class="profile-details">
+                    <div>
+                        <p><span class="info-label">Email:</span> mercadokennedy5@gmail.com</p>
+                        <p><span class="info-label">Phone:</span> 09511695276</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showPersonalWebsite() {
+            document.getElementById('LBJland').style.display = 'none';
+            document.getElementById('Chiefcurry').style.display = 'block';
+        }
+
+        function showLandingPage() {
+            document.getElementById('Chiefcurry').style.display = 'none';
+            document.getElementById('LBJland').style.display = 'flex';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #2c292d;
+    color: #000000;
+}
+
+#LBJland {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4e2828;
+    text-align: center;
+}
+.LANDD {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+}
+.landing-title {
+    color: #000000;
+    margin-bottom: 20px;
+}
+.enter-button {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+.enter-button:hover {
+    background-color: #696969;
+    transform: scale(1.05);
+}
+.landing-description {
+    color: #000000;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+#Chiefcurry {
+    display: none;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.jacskol {
+    background-color: rgb(220, 220, 220);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+.webyy {
+    margin-top: 20px;
+}
+.info-label {
+    font-weight: bold;
+    color: #201d1d;
+}
+.profile-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.profile-details p {
+    margin: 5px 0;
+}
+ul {
+    padding-left: 20px;
+}
+.back-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.back-button:hover {
+    background-color: #cacaca;
+}
+.EYYY {
+    position: absolute;
+    top: 85px;
+    right: 400px;
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 0; 
+    border: 2px solid #2f2121;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease forwards;
+}
+
+#hero .cta{
+    display: inline-block;
+    padding: 10px 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid e2828;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 36px;
+
+}
+#hero .cta:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
